@@ -1,0 +1,89 @@
+******
+npx create react-app appname
+npm install
+*********
+
+npm start
+
+1.react is all about components and these component are used to reuse the code and optimise the code
+component are used for reuablity and for separation of different features of app 
+
+With React.js, you define the "goal" (i.e. what should be shown on the screen) and let React figure out how to get there.
+
+2.components are basically only function of javasrcipt which return a html/jsx code 
+
+3.react is declarative means we write in different components and merge them then react understand
+and transform it for us to show on website
+
+4.we should write the components name in first letter in capital case to better understandreact
+which are buildin tags and which are own made tags
+
+5.one important rule in jsx return html code return in a component ki only one root elemnt must be return not 
+more then that or we only have one root elemnt per return statment
+
+6. for css in react there is nothing special we just create a css file then import that css file 
+in which js file ma aap ausko style karna chahata ho
+and in react jsx ma class nhi className sa hum define karta hai bcoze class is reserved for js
+
+7.We not all the times use the hard coded value in html to return as we now a component is just 
+a function which contains html css and js code jo we can add js code to our component also
+{by the help to these bracketts we can all js code to out html jo return ho raha hai} and make 
+it dynamic instead of hard-coded values we can inject basic js code with the help of these {bracketts}
+return karna sa phele aap upar js ka code likh lo and use kar lo in return jsx code ma with {bracketts}
+
+8.props in react stands for property of the our own build elemnt or custom component and these props are nothing 
+they are just attributes of our own build element/component these are needed by us to pass 
+to pass dynamic values 
+
+with the help of props we pass data to our custom component with the help of props, we can set property
+of our own custom component 
+
+React allow us to pass parameter in component and yaha par hum alag alag parameter pass nhi karta
+ek object bana kar props usma all attributes as parameter pass kar dete hai hum 
+
+we can give any name to these our own build attributes but the object key shoud be same which we pass
+
+with the helps of props we can pass data to multiple file and componentin react
+
+9. our component is just a function when react intially evaluate the component then it run 
+all the component/function only once and after that any change to variable or other does not 
+say react to evaluate the component thats why changing title using equal to does run the
+component again  for that to re-evaluate the component we use usestate
+
+
+10. UseState it is important to understard that changing variable value in our component 
+does not effect to re-evaluate the component by react it does not work like that instead 
+we need to use useState a react hook which help us to do that useState is a function
+which takes a initial default value and return a array of size 2 where 1st is the variable 
+and 2nd is the function which is used to update the variable
+
+usestate ka use kara ka hum component function ko again trigger kar sakta hai  react kabhi bhi 
+variable change or on click ki vaja sa kabhi bhi nhi re-evaluate nhi kar ta function ko
+
+usestate(take a default variable change in which cause react to re-evaluate the component)
+
+usestate is a function whose change in value triggering re-evaluation of the component
+
+useState register some state so some value as state for the component in which it is called
+
+useState is per component instances basis means if there are multiple instances of a component
+the state at one instances does not effect the state of the same component of different instances
+they are detacted from one another 
+
+and whenever the click ki vaja sa re-evaluate huga toh for that component only and for that
+only instance ka kiya re-evaluate hoga pura code nhi re-evaluate hoga by react
+
+we are using const which fine to use in useState bcoze we are not asigning value by using = 
+equal to instead we pass it to set updating function so react will manage variable for us
+
+Calling useState again will simply create a new state.it will not update it create new state
+
+if a state depend on previous state we should use function form to update the state
+
+11. when ever any event occur a event object was there which can be used for many purposes
+
+12. There is a default behaviour of form if there is button of type submit there is a event 
+which can be done on form onSubmit 
+
+13.two way binding in react used in form to update the value after form is been sumbmitted
+
